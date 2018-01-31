@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Students of 339 </title>
+	</head> 
+	<style>
+	h1 {color: blue; font-family:Georgia;size:10;}
+	nav {color: black; font-family:Georgia}
+	p {color:blue; font-family:Verdana; size: 3; margin: 5px 80px;}
+	form {color: black; font-family: Georgia;}
+	</style>
+	<body style="background-color:#FDF5E6;">
+		<header>
+			<h1> Students of 339 </h1>
+			<h2>
+				<nav>
+					<a href="#Angel">Angel Tsai</a>
+					<a href="https://cfeola.github.io/ICE-HTML.html">Colleen Feola</a>
+					<a href="https://tywalker06.github.io/Ice1/index.html">Tyler Walker</a>
+				</nav>
+			</h2>
+		</header>
+		<div id="Angel">
+			<center>
+				<h1>Angel Tsai</h1>
+			</center>
+			<center>
+				<img src="https://assets.donordrive.com/clients/dmum/img/fbLogo.jpg?v=201712141540" alt="DMatUM Logo" width="300" height="300">
+				<img src="https://assets.donordrive.com/DMUM/images/$constituents$/480DA416-C29F-F29A-6FB090B2859C5BEC/DSC_0183.jpg" alt="Mott's Summer Enrichment Camp" width="325" height="250">
+				<img src="img/VT.jpg" alt="VT Total" width="350" height="250">
+				<img src="img/sketch.jpg" alt="Class Sketch" width="300" height="225">
+			</center>
+			<br/>
+		</div>
+		<div id="Intro">
+			<center>
+				<p>Hey everyone! My name is Angel and I'm a senior in the School of Information at the University of Michigan. I am on the User Experience path and because I'm interested in design and how people respond and connect with interfaces. I am also part of Dance Marathon at the University of Michigan, the largest student org on campus that raises funds and awareness for pediatric rehabilitation therapies at C.S Mott Children's Hospital and Beaumont Children's. I believe in children and their strength, their joy, and their childhoods. Above are some photos from activities I had the opportunity to experience because of DMUM -- Mott's Summer Enrichment Camp and VictorThon.</p>
+				<br/>
+				<p>In addition to volunteering, I am also one of the Information Management Chairs for DMUM, along with Colleen Feola. Our team also includes three coordinators, and together, we maintain the official website and the database of Dancer information. We also like fun projects, like working with an outside developer to create a mobile application to be used in-event. #InfoManaged</p>
+				<br/>
+				<p>If you'd like to learn more about Dance Marathon, what we do, and who we support, check out our website below!</p>
+				<br/>
+				<form action="dmum.org">
+					<input type="submit" value="Learn More About DMUM!"/>
+				</form>
+				<br/>
+			</center>
+		</div>
+		<div id="Video" style="color: blue; font-family: Verdana;">
+			<center>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/FqsDRaC9xDI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<br/>
+				<caption><font size="2"; family:Verdana; color:blue;><i>A video from North Star Reach Family Camp, a beneficiary of Dance Marathon at the University of Michigan!</i></font></caption>
+			</center>
+			<br/>
+			<br/>
+		</div>
+		<form>
+			Have any questions about DMUM? Leave your info and I'll get in touch shortly!
+			<br/>
+			<br/>
+			Name:
+			<input type="text" name="name" id = "name"></label><br>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id = "email"><br>
+			<label for="tel">Phone:</label>
+			<input type="tel" name="tel" id = "tel"><br>
+			<br/>
+
+			How would you like to be contacted?<br>
+			<input type="radio" name="method" value="email"> E-mail<br>
+		  	<input type="radio" name="method" value="phone"> Phone<br>
+		  	<input type="radio" name="method" value="both"> Either works!<br>
+
+		  	<br/>
+
+		  	What time of day do you prefer to be contacted?<br>
+			<input type="checkbox" name="time" value="morning"> Morning<br>
+		  	<input type="checkbox" name="time" value="afternoon"> Afternoon<br>
+		  	<input type="checkbox" name="time" value="evening"> Evening<br>
+		  	<input type="checkbox" name="time" value="night"> Night<br>
+		  	<br/>
+		  	<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
